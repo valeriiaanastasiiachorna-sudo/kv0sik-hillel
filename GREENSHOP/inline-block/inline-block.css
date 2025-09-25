@@ -1,0 +1,112 @@
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+.header-top {
+    margin-top: 40pt;
+    margin-left: 200pt;
+    margin-bottom: 30pt;
+}
+
+.Logo {
+    display: inline-block;
+    margin-right: 200pt;
+    vertical-align: middle;
+}
+
+.navigation {
+    display: inline-block;
+    margin-right: 135pt;
+    font-family: 'PT Sans';
+    font-size: 14pt;
+    color: #3D3D3D;
+}
+
+
+.Login {
+    display: inline-block;
+    font-family: 'PT Sans';
+    font-weight: 500;
+    font-size: 14pt;
+    color: #fff;
+    padding: 8pt 18pt;
+    background-color: #46A358;
+    border-color: transparent;
+    border-radius: 6pt;
+}
+
+
+.nav-item {
+    display: inline-block;
+    margin-right: 50pt;
+}
+
+.nav-item :hover {
+    color: #fff;
+    background-color: #1f793d;
+    padding: 3pt 5pt;
+    border-radius: 3pt;
+}
+
+
+.header-middle {
+    margin-left: 200pt;
+    background-color: #F5F5F5;
+    padding: 40px 60px;
+    max-width: 1320px;
+}
+
+.middle-text-all {
+    display: inline-block;
+}
+
+
+
+.middle-welcome {
+    font-family: 'PT Sans';
+    font-size: 16pt;
+    font-weight: 500;
+    color: #3D3D3D;
+}
+
+.middle-main-text {
+    font-family: 'PT Sans';
+    font-size: 67pt;
+    font-weight: 900;
+    color: #3D3D3D;
+    margin-top: 7pt;
+    margin-bottom: 5pt;
+    max-width: 800px;
+    line-height: 1;
+}
+
+.planet {
+    color: #46A358;
+}
+
+.middle-primary-text {
+    font-family: 'PT Sans';
+    font-size: 12pt;
+    font-weight: 300;
+    color: #3D3D3D;
+    max-width: 650px;
+}
+
+.middle-shop-now {
+    font-family: 'PT Sans';
+    font-weight: 700;
+    font-size: 14pt;
+    color: #fff;
+    padding: 12pt 26pt;
+    background-color: #46A358;
+    border-color: transparent;
+    border-radius: 6pt;
+    margin-top: 40pt;
+}
+
+.Plants {
+    display: inline-block;
+    vertical-align: top;
+    max-width: 507px;
+    max-height: 417px;
+}
