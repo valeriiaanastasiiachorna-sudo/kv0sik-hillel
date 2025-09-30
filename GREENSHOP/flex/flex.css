@@ -1,0 +1,126 @@
+@font-face {
+    font-family: 'Cera Pro Regular';
+    src: url(CeraPro/CeraPro-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Cera Pro Bold';
+    src: url(CeraPro/CeraPro-Bold.ttf);
+}
+
+.header-left {
+    display: inline-block;
+    vertical-align: top;
+    font-family: 'Cera Pro Regular';
+    color: #3D3D3D;
+    margin-bottom: 10px;
+    margin-right: 50px;
+    max-width: 370px;
+    max-height: 1244px;
+}
+
+
+
+.categ-title-head {
+    font-weight: bold;
+    font-size: 18pt;
+    margin-top: 23px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+}
+
+.categories {
+    display: block;
+    font-size: 15pt;
+    color: #3D3D3D;
+}
+
+.categ-item {
+    margin-bottom: 40px;
+    margin-left: 40px;
+}
+
+.categ-item-house {
+    font-weight: bold;
+    color: #46A358;
+    margin-bottom: 40px;
+    margin-left: 40px;
+}
+
+.categ-img {
+    margin-top: 378px;
+}
+
+
+.header-right {
+    display: inline-block;
+    vertical-align: top;
+    font-family: 'Cera Pro Regular';
+    margin-top: 10px;
+    max-width: 870px;
+    max-height: 1369px;
+}
+
+.nav {
+    display: inline-block;
+    margin-right: 38px;
+    font-size: 15pt;
+    color: #3D3D3D;
+    margin-right: 250px;
+    margin-bottom: 31px;
+}
+
+.nav-item {
+    display: inline-block;
+    margin-right: 38px;
+    font-size: 15pt;
+    color: #3D3D3D;
+}
+
+.dropdown-list {
+    display: inline-block;
+    background-color: transparent;
+    font-size: 15pt;
+    font-family: 'Cera Pro Regular';
+    color: #3D3D3D;
+}
+
+.header-right-cards {
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+    row-gap: 70px;
+    column-gap: 33px;
+}
+
+.card {
+    color: #3D3D3D;
+}
+
+.product-title {
+    font-size: 16pt;
+    margin-top: 39px;
+    margin-bottom: 6px;
+}
+
+.product-price {
+    font-size: 18pt;
+    font-weight: bold;
+    color: #46A358;
+}
+
+.pages2 {
+    display: flex;
+    justify-content: end;
+    padding: 0;
+    gap: 8px;
+}
+
+.pages3 {
+    display: block;
+    padding: 10px 12 px;
+    border: 1px;
+    border-color: #3D3D3D;
+    border-radius: 6px;
+    color: #3D3D3D;
+}
