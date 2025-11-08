@@ -25,6 +25,56 @@
 
 
 
+.preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #FBFBFB;
+    color: #3D3D3D;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 10000;
+    overflow: hidden;
+    transition: opacity 0.5s ease-out, visibility 0.5s; 
+    cursor: pointer; 
+}
+
+
+.css-spinner {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 30px;
+    border: 5px solid rgba(50, 47, 47, 0.3);
+    border-top-color: #46A358;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+.click-prompt {
+    font-family: 'Cera Pro Regular';
+    font-size: 25px;
+}
+
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}
+
+.preloader:active {
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden; 
+}
+
+.preloader-hidden {
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+}
+
 
 .main-container {
     margin: 0 auto;
@@ -309,58 +359,46 @@
 
 
 .range-slider-container {
-    /* Ограничения по ширине и высоте */
     width: 215px;
-    height: 15px; /* Заданная высота с учетом "кругов" */
+    height: 15px;
     margin-top: 15px;
     margin-left: 12px;
     position: relative;
 }
 
-/* Фон, который имитирует общую линию */
 .range-slider-container::before {
     content: '';
     position: absolute;
     top: 0.5px;
     transform: translateY(-50%);
     width: 100%;
-    height: 4px; /* Толщина линии */
-    background: rgba(70, 163, 88, 0.1); /* Светлый фон всей линии */
+    height: 4px;
+    background: rgba(70, 163, 88, 0.1);
     z-index: 1;
     border-radius: 2px;
 }
 
-/* Линия заполнения между ползунками (зеленый цвет) */
 .slider-track {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    /* Значения left и width будут управляться через JavaScript */
-    /* Здесь просто базовая стилизация для примера */
     height: 4px;
-    background: #46A358; /* Основной зеленый цвет */
+    background: #46A358;
     z-index: 2;
     border-radius: 2px;
 }
 
-
-/* Стилизация ползунка */
 .range-slider {
     position: absolute;
     width: 100%;
-    /* Высота ползунка (только для взаимодействия, реальный вид в thumb) */
     height: 15px; 
-    /* Прозрачность для скрытия стандартного ползунка */
     background: none; 
-    pointer-events: none; /* Чтобы можно было кликать на оба ползунка */
+    pointer-events: none;
     -webkit-appearance: none;
     appearance: none;
     z-index: 3;
-    /* Устанавливаем min/max-range ползункам z-index */
-    /* Один должен быть выше, чтобы можно было перетаскивать, когда они совпадают */
 }
 
-/* Стилизация дорожки ползунка (track) - делаем ее прозрачной, т.к. используем .slider-track */
 .range-slider::-webkit-slider-runnable-track {
     -webkit-appearance: none;
     background: transparent;
@@ -376,15 +414,15 @@
 
 .range-slider::-webkit-slider-thumb {
     -webkit-appearance: none;
-    pointer-events: all; /* Включаем взаимодействие с кругом */
-    width: 17px; /* Диаметр круга */
-    height: 17px; /* Диаметр круга */
+    pointer-events: all;
+    width: 17px; 
+    height: 17px; 
     border-radius: 50%;
-    background: #46A358; /* Зеленый цвет */
-    border: 2px solid white; /* Белый ободок */
+    background: #46A358; 
+    border: 2px solid white; 
     cursor: pointer;
-    margin-top: -7px; /* Для центрирования круга (15px/2 - 4px/2 = 7.5 - 2 = 5.5) относительно 4px track */
-    box-shadow: 0 0 0 2px rgba(255, 255, 255, 1); /* Дополнительный белый ободок для имитации*/
+    margin-top: -7px;
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 1);
 }
 
 

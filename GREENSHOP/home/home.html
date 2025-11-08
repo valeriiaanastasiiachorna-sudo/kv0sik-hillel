@@ -11,6 +11,12 @@
     <title>Home</title>
 </head>
 <body>
+    <div class="preloader">
+        <div class="css-spinner"></div>
+        <p class="click-prompt">Click to start</p> 
+    </div>
+
+
     <div class="main-container">
         <div class="container-better-planet">
             <div class="top-header-planet">
@@ -758,5 +764,19 @@
 
 
     </div>
+
+<script>
+    const preloader = document.getElementById('preloader');
+    
+    if (preloader) {
+        preloader.addEventListener('click', function() {
+            preloader.classList.add('preloader-hidden');
+        });
+    }
+</script>
+
 </body>
+
+
+
 </html>
