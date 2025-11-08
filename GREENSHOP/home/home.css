@@ -360,7 +360,11 @@
 
 .range-slider-container {
     width: 215px;
+<<<<<<< HEAD
     height: 15px;
+=======
+    height: 15px; 
+>>>>>>> 45a0021e4208eaa6bd10ba9e7ea32a49a93cab54
     margin-top: 15px;
     margin-left: 12px;
     position: relative;
@@ -372,8 +376,13 @@
     top: 0.5px;
     transform: translateY(-50%);
     width: 100%;
+<<<<<<< HEAD
     height: 4px;
     background: rgba(70, 163, 88, 0.1);
+=======
+    height: 4px; 
+    background: rgba(70, 163, 88, 0.1); 
+>>>>>>> 45a0021e4208eaa6bd10ba9e7ea32a49a93cab54
     z-index: 1;
     border-radius: 2px;
 }
@@ -383,17 +392,29 @@
     top: 50%;
     transform: translateY(-50%);
     height: 4px;
+<<<<<<< HEAD
     background: #46A358;
+=======
+    background: #46A358; 
+>>>>>>> 45a0021e4208eaa6bd10ba9e7ea32a49a93cab54
     z-index: 2;
     border-radius: 2px;
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 45a0021e4208eaa6bd10ba9e7ea32a49a93cab54
 .range-slider {
     position: absolute;
     width: 100%;
     height: 15px; 
     background: none; 
+<<<<<<< HEAD
     pointer-events: none;
+=======
+    pointer-events: none; 
+>>>>>>> 45a0021e4208eaa6bd10ba9e7ea32a49a93cab54
     -webkit-appearance: none;
     appearance: none;
     z-index: 3;
@@ -414,14 +435,22 @@
 
 .range-slider::-webkit-slider-thumb {
     -webkit-appearance: none;
+<<<<<<< HEAD
     pointer-events: all;
+=======
+    pointer-events: all; 
+>>>>>>> 45a0021e4208eaa6bd10ba9e7ea32a49a93cab54
     width: 17px; 
     height: 17px; 
     border-radius: 50%;
     background: #46A358; 
     border: 2px solid white; 
     cursor: pointer;
+<<<<<<< HEAD
     margin-top: -7px;
+=======
+    margin-top: -7px; 
+>>>>>>> 45a0021e4208eaa6bd10ba9e7ea32a49a93cab54
     box-shadow: 0 0 0 2px rgba(255, 255, 255, 1);
 }
 
