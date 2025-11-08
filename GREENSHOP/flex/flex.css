@@ -8,15 +8,20 @@
     src: url(CeraPro/CeraPro-Bold.ttf);
 }
 
+.container {
+    max-width: 1230px;
+    max-height: 1370px;
+    margin: 0 auto;
+}
+
 .header-left {
     display: inline-block;
     vertical-align: top;
     font-family: 'Cera Pro Regular';
     color: #3D3D3D;
-    margin-bottom: 10px;
-    margin-right: 50px;
     max-width: 370px;
     max-height: 1244px;
+    margin: 0 auto;
 }
 
 
@@ -48,7 +53,7 @@
 }
 
 .categ-img {
-    margin-top: 378px;
+
 }
 
 
@@ -56,9 +61,9 @@
     display: inline-block;
     vertical-align: top;
     font-family: 'Cera Pro Regular';
-    margin-top: 10px;
     max-width: 870px;
     max-height: 1369px;
+    margin: 0 auto;
 }
 
 .nav {

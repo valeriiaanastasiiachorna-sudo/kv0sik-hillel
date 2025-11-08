@@ -44,7 +44,6 @@
 .nav-item :hover {
     color: #fff;
     background-color: #1f793d;
-    padding: 3pt 5pt;
     border-radius: 3pt;
 }
 
@@ -53,7 +52,7 @@
     margin-left: 200pt;
     background-color: #F5F5F5;
     padding: 40px 60px;
-    max-width: 1320px;
+    max-width: 1440px;
 }
 
 .middle-text-all {
